@@ -1,0 +1,413 @@
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    min-width: 110em;
+    min-height: 50em;
+    background-color: #f1f4f9;
+}
+
+div {
+}
+table {
+    border-collapse: collapse;
+}
+
+main {
+    margin-left: 8%;
+}
+
+#main > span {
+    font-size: 0.85em;
+    display: block;
+}
+p {
+    width: 50%;
+    font-size: 1.1em;
+}
+td {
+    border: none;
+    width: 10em;
+    height: 2em;
+}
+
+span {
+    color: black;
+}
+
+a span {
+    color: #094ABA;
+}
+
+select {
+    width: 30em;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+li {
+    align-items: center;
+}
+li a {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    display: block;
+    padding: 2em;
+    font-size: 0.85em;
+}
+
+li a:hover {
+    background-color: #5c7782;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    color: #094ABA;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.loomianRowType {
+    width: 7em;
+}
+
+.loomianRowAbility {
+    width: 8em;
+}
+
+.loomianRowStat {
+    font-size: 0.8em;
+    width: 3em;
+    text-align: center;
+}
+
+.navBar {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    position: fixed;
+    z-index: 10;
+    background: #8faab5;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 8em;
+    -webkit-box-shadow: 0 0 7px 1px #434384;
+    -moz-box-shadow: 0 0 7px 1px #434384;
+    box-shadow: 0 0 7px 1px #434384;
+}
+
+.loomianRowImage {
+    display: inline-block;
+    width: 40px;
+    height: 35px;
+    background-repeat: no-repeat;
+}
+
+.loomianRowName a {
+    width: 100%;
+    font-size: 1em;
+    min-height: 2.5em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.loomianRowAbility a {
+    font-size: 0.85em;
+}
+
+.loomianRowType a {
+    font-weight: bold;
+    font-size: 0.85em;
+    display: inline-block;
+    width: 3.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 25px;
+}
+
+.loomianRowName a:hover {
+    background: linear-gradient(#e4e4f1,#c9c9e3);
+    border-color: #c2c2e0;
+    border-radius: 4px;
+    color: #1c6bf4; 
+}
+
+.loomianRowType a:hover {
+    text-decoration: none;
+    filter: brightness(110%);
+    color: white;
+}
+
+.moveRowType {
+    width: 8em;
+}
+
+.moveRowMR {
+    width: 3em;
+}
+
+.moveRowStat {
+    font-size: 0.8em;
+    width: 3.5em;
+    text-align: center;
+}
+
+.moveRowDescription {
+    font-size: 0.9em;
+    width: 40em;
+    padding-left: 1em;
+}
+
+.moveRowName a {
+    width: 100%;
+    font-size: 1em;
+    min-height: 2.5em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.moveRowType a {
+    font-weight: bold;
+    font-size: 0.85em;
+    display: inline-block;
+    width: 3.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 25px;
+}
+
+.moveRowName a:hover {
+    background: linear-gradient(#e4e4f1,#c9c9e3);
+    border-color: #c2c2e0;
+    color: #1c6bf4;
+    border-radius: 4px;
+}
+
+.moveRowType a:hover {
+    text-decoration: none;
+    filter: brightness(110%);
+    color: white;
+}
+
+.abilityRowDescription {
+    font-size: 0.9em;
+    width: 40em;
+}
+
+.abilityRowName a {
+    width: 100%;
+    font-size: 1em;
+    min-height: 2.5em;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.abilityRowName a:hover {
+    background: linear-gradient(#e4e4f1,#c9c9e3);
+    border-color: #c2c2e0;
+    color: #1c6bf4;
+    border-radius: 4px;
+}
+
+tr:nth-child(odd) {
+    background: #e6e6f2;
+}
+
+.loomianImg {
+    max-height: 150px;
+    max-width: 150px;
+    width: auto;
+    height: auto;
+}
+.imageDiv {
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #ccc;
+    padding: 8px;
+    min-height: 200px;
+    min-width: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin-right: 2em;
+    float: left;
+}
+
+.loomianInformationDiv {
+    width: 100%;
+    float: left;
+}
+.loomianInformationTable {
+    display: inline-block;
+    margin-top: 3.5em;
+    float: left;
+}
+.loomianStatsTable {
+    display: inline-block;
+    margin-top: 2.5em;
+    margin-left: 5em;
+    float: left;
+}
+.loomianStatsTable td {
+    height: 1.5em;
+}
+.loomianInformationTd {
+    width: 6em !important;
+}
+
+.loomianInformationRow td {
+    background: #f1f4f9 !important;
+    width: 3em;
+}
+
+.loomianStatRow td {
+    background: #f1f4f9 !important;
+    text-align: right;
+    width: 4em;
+}
+.loomianStatRow th {
+    background: #f1f4f9 !important;
+    text-align: right;
+    width: 1em;
+    padding-left: 1em;
+}
+.loomianStatBar {
+    box-shadow: inset 1px 4px 0 rgba(255,255,255,.4), inset -1px -1px 0 rgba(0,0,0,.3);
+}
+
+.loomianSetBox {
+    background: -webkit-linear-gradient(top left,#ebebf7,#f6f6fb);
+    box-sizing: border-box;
+    border: 1px solid #d2d2ec;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px #ccc;
+    padding: 1em 2em;
+    width: 50%;
+    height: 17%;
+    display: flex;
+    align-items: center;
+}
+
+.loomianInfoBox {
+    width: 50%;
+    display: inline-block;
+}
+.loomianInfoBox table {
+    width: 100%;
+}
+.loomianInfoBox tr {
+    background-color: unset;
+}
+.loomianInfoBox td {
+    height: 1.9em;
+}
+
+.moveInfoBox {
+    background: -webkit-linear-gradient(top left,#ebebf7,#f6f6fb);
+    box-sizing: border-box;
+    border: 1px solid #d2d2ec;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px #ccc;
+    padding: 1em 2em;
+    width: 50%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.moveInfoBox .moveRowType {
+    width: 7em;
+}
+.moveInfoBox div {
+    display: inline-block;
+    width: 20%;
+}
+.moveInfoBox a {
+    border-radius: 10px;
+}
+.moveInfoBox a:hover {
+    text-decoration: none;
+    filter: brightness(110%);
+    color: white;
+}
+
+.typeBox {
+    font-weight: bold;
+    font-size: 1em;
+    display: inline-block;
+    width: 6em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-radius: 25px;
+}
+.typeBox:hover {
+    text-decoration: none;
+    filter: brightness(110%);
+    color: white;
+}
+dd {
+    margin: 0.5em;
+}
+dt {
+    font-size: 1.3em;
+}
+
+
+.regularImage {    
+    padding: 8px;
+    min-height: 200px;
+    min-width: 200px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    float: left;
+}
